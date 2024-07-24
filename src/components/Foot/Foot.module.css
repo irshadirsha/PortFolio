@@ -1,5 +1,72 @@
 @import "../../vars.css";
 
+.foot {
+  color: var(--color-text);
+  margin-top: 50px;
+  background-color: var(--color-secondary);
+  width: 100vw;
+  padding: 20px 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infoSection {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: var(--color-highlight);
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.insta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  font-size: 24px;
+  color: rgb(234, 12, 142); /* Set the desired color for the icon here */
+}
+
+.link {
+  color: var(--color-link);
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: var(--color-link-hover);
+}
+
+.footerText {
+  text-align: center;
+  color: gray;
+  font-family: Arial, sans-serif;
+}
+
+.footerText p {
+  margin: 5px 0;
+}
+
+.highlight {
+  color: #fff;
+}
+
+
+/* @import "../../vars.css";
+
 .foot{
       color: var(--color-text);
       margin-top: 50px;
@@ -23,4 +90,4 @@
       padding: 5px;
       text-decoration: none;
       text-size-adjust: 10px;
-}
+} */
